@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MazYuNWVOjOhqo4Rm8DiIz6zbko3eAS6uzqqqHxqZ1H07PYJxMQjIeHO3jZnMV3UVXhd9btzZomJSH50lWm25w==",
+  "success": true,
+  "projectFilePath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.SharedKernel\\CRUDCatalogoPersonas.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emaco\\.nuget\\packages\\ardalis.specification\\5.2.0\\ardalis.specification.5.2.0.nupkg.sha512",
+    "C:\\Users\\emaco\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

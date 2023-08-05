@@ -1,0 +1,7 @@
+{
+  "CRUDCatalogoPersonas.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core",
+  "CRUDCatalogoPersonas.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure",
+  "CRUDCatalogoPersonas.SharedKernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.SharedKernel",
+  "CRUDCatalogoPersonas.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.UnitTests",
+  "CRUDCatalogoPersonas.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Web"
+}
