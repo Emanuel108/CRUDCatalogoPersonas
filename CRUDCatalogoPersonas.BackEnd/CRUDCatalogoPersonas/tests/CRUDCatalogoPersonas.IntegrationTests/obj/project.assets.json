@@ -14287,17 +14287,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.IntegrationTests\\CRUDCatalogoPersonas.IntegrationTests.csproj",
+      "projectUniqueName": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.IntegrationTests\\CRUDCatalogoPersonas.IntegrationTests.csproj",
       "projectName": "CRUDCatalogoPersonas.IntegrationTests",
-      "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.IntegrationTests\\CRUDCatalogoPersonas.IntegrationTests.csproj",
+      "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.IntegrationTests\\CRUDCatalogoPersonas.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\emaco\\.nuget\\packages\\",
-      "outputPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.IntegrationTests\\obj\\",
+      "outputPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\NuGet.Config",
+        "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\NuGet.Config",
         "C:\\Users\\emaco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -14313,8 +14313,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.UnitTests\\CRUDCatalogoPersonas.UnitTests.csproj": {
-              "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.UnitTests\\CRUDCatalogoPersonas.UnitTests.csproj"
+            "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.UnitTests\\CRUDCatalogoPersonas.UnitTests.csproj": {
+              "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\tests\\CRUDCatalogoPersonas.UnitTests\\CRUDCatalogoPersonas.UnitTests.csproj"
             }
           }
         }

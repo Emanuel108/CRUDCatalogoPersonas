@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jr7AzHMgDuV6AHdalvmm7GLbqkHQrGxlXx+MW5fmVQMgoWNIYOPkto/swn8mCXIXxJn/X/P7LQ56Ly1C/xiJsw==",
+  "dgSpecHash": "43W4p3zt8i8ZrHLLNqMkz5nXFX1/UdPLpKLAdG69gjpRPBYxW2L5NsEv7Afcj6vq/zdvu1+ZR695Atf74rzjyg==",
   "success": true,
-  "projectFilePath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core\\CRUDCatalogoPersonas.Core.csproj",
+  "projectFilePath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core\\CRUDCatalogoPersonas.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emaco\\.nuget\\packages\\ardalis.guardclauses\\3.3.0\\ardalis.guardclauses.3.3.0.nupkg.sha512",
     "C:\\Users\\emaco\\.nuget\\packages\\ardalis.result\\3.1.2\\ardalis.result.3.1.2.nupkg.sha512",

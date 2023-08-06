@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Ardalis.ApiEndpoints;
 using CRUDCatalogoPersonas.Core.PeopleAggregate;
 using CRUDCatalogoPersonas.SharedKernel.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -19,6 +20,7 @@ public class Update : BaseAsyncEndpoint
         _repository = repository;
     }
 
+    [EnableCors("CORS")]
     [HttpPut(UpdatePeopleRequest.Route)]
     [SwaggerOperation(
         Summary = "Actualiza los datos de una persona",
@@ -35,7 +37,7 @@ public class Update : BaseAsyncEndpoint
 
         data.UpdatePeople(request.Name, request.LastName, request.Address, request.Email, request.Phone, request.Gender);
 
-        await _repository.UpdateAsync(data); // TODO: pass cancellation token
+        await _repository.UpdateAsync(data);
 
         var response = new UpdatePeopleResponse()
         {

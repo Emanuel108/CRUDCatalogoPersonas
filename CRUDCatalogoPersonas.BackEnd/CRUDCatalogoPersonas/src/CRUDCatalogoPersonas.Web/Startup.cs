@@ -3,6 +3,7 @@ using Ardalis.ListStartupServices;
 using Autofac;
 using CRUDCatalogoPersonas.Core;
 using CRUDCatalogoPersonas.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -31,6 +32,16 @@ public class Startup
             options.CheckConsentNeeded = context => true;
             options.MinimumSameSitePolicy = SameSiteMode.None;
         });
+
+        
+        services.AddCors(options =>
+        {
+            options.AddPolicy("CORS", policy =>
+            {
+                policy.WithOrigins("http://localhost/").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+            });
+        });
+        
 
         string connectionString = Configuration.GetConnectionString("DefaultConnection");  //Configuration.GetConnectionString("DefaultConnection");
 
@@ -76,9 +87,7 @@ public class Startup
         }
         app.UseRouting();
 
-        app.UseHttpsRedirection();
-        app.UseStaticFiles();
-        app.UseCookiePolicy();
+        app.UseCors();
 
         // Enable middleware to serve generated Swagger as a JSON endpoint.
         app.UseSwagger();

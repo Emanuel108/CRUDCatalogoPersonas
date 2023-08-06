@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XV78eU2xkmD0ybtcyShZF04D/B2P0pJSE7MC5KsAaHgVcojHqkX6Iiqt5tRsxIi1gEzrDBH8rYJkdgBpPM9+yg==",
+  "dgSpecHash": "Vivg8pJJfeFfvG0MxDOHc7MN/k1IWY5Om/8gNMWCT0/zIxINQDjl9mtvx0+dGYIn+WFpmNqTdM4WGa+i/rkqAg==",
   "success": true,
-  "projectFilePath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\CRUDCatalogoPersonas.Infrastructure.csproj",
+  "projectFilePath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\CRUDCatalogoPersonas.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emaco\\.nuget\\packages\\ardalis.efcore.extensions\\1.1.0\\ardalis.efcore.extensions.1.1.0.nupkg.sha512",
     "C:\\Users\\emaco\\.nuget\\packages\\ardalis.guardclauses\\3.3.0\\ardalis.guardclauses.3.3.0.nupkg.sha512",

@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Ardalis.ApiEndpoints;
 using CRUDCatalogoPersonas.Core.PeopleAggregate;
 using CRUDCatalogoPersonas.SharedKernel.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Build.Tasks;
 using Swashbuckle.AspNetCore.Annotations;
@@ -20,6 +21,7 @@ public class Create : BaseAsyncEndpoint
         _repository = repository;
     }
 
+    [EnableCors("CORS")]
     [HttpPost("/People")]
     [SwaggerOperation(
         Summary = "Crear una nueva persona",

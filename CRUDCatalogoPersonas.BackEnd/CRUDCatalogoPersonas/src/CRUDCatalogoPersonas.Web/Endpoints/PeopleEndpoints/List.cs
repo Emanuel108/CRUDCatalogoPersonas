@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Ardalis.ApiEndpoints;
 using CRUDCatalogoPersonas.Core.PeopleAggregate;
 using CRUDCatalogoPersonas.SharedKernel.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -20,6 +21,7 @@ public class List : BaseAsyncEndpoint
         _repository = repository;
     }
 
+    [EnableCors("CORS")]
     [HttpGet("/People")]
     [SwaggerOperation(
         Summary = "Obtener lista de personas",
@@ -29,10 +31,14 @@ public class List : BaseAsyncEndpoint
     ]
     public override async Task<ActionResult<PeopleListResponse>> HandleAsync(CancellationToken cancellationToken)
     {
+        //var data = await _repository.ListAsync();
+
+        
         var data = new PeopleListResponse();
         data.People = (await _repository.ListAsync()) // TODO: pass cancellation token
             .Select(people => new PeopleRecord(people.Id, people.Name, people.LastName, people.Address, people.Email, people.Phone, people.Gender))
             .ToList();
+      
 
         return Ok(data);
     }

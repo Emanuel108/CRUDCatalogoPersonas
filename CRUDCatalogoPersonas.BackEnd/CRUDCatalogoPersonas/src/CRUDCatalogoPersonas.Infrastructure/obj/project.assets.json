@@ -3129,17 +3129,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\CRUDCatalogoPersonas.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\CRUDCatalogoPersonas.Infrastructure.csproj",
       "projectName": "CRUDCatalogoPersonas.Infrastructure",
-      "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\CRUDCatalogoPersonas.Infrastructure.csproj",
+      "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\CRUDCatalogoPersonas.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\emaco\\.nuget\\packages\\",
-      "outputPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\obj\\",
+      "outputPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\NuGet.Config",
+        "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\NuGet.Config",
         "C:\\Users\\emaco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3155,11 +3155,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core\\CRUDCatalogoPersonas.Core.csproj": {
-              "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core\\CRUDCatalogoPersonas.Core.csproj"
+            "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core\\CRUDCatalogoPersonas.Core.csproj": {
+              "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.Core\\CRUDCatalogoPersonas.Core.csproj"
             },
-            "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.SharedKernel\\CRUDCatalogoPersonas.SharedKernel.csproj": {
-              "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.SharedKernel\\CRUDCatalogoPersonas.SharedKernel.csproj"
+            "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.SharedKernel\\CRUDCatalogoPersonas.SharedKernel.csproj": {
+              "projectPath": "D:\\Evaluaciones\\RedEfectiva\\CRUDCatalogoPersonas\\CRUDCatalogoPersonas.BackEnd\\CRUDCatalogoPersonas\\src\\CRUDCatalogoPersonas.SharedKernel\\CRUDCatalogoPersonas.SharedKernel.csproj"
             }
           }
         }
